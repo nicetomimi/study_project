@@ -1,0 +1,62 @@
+.button-aline{
+    margin-top: 48px;
+    margin-bottom: 48px;
+    text-align: center;
+}
+
+footer{
+    background: #19110b;
+    font-size: 14px;
+}
+
+.first-line {
+    color: white;
+    border-bottom: 1px solid #392d23;
+}
+
+.second-line a{
+text-decoration: none;
+color: white;
+
+}
+
+.color{
+    color:white;
+}
+
+.mobile-footer{
+    display: none;
+    border-top: 1px solid #392d23;
+    color: white;
+    text-align: center;
+}
+
+@media screen and (max-width: 48rem) {
+
+    .second-line {
+  
+      padding: 0 2rem;
+  
+    }
+  
+    .flag {
+  
+      display: none;
+  
+    }
+  
+    .first-line {
+  
+      text-align: center;
+  
+    }
+  
+     .mobile-footer {
+  
+      display: block;
+  
+    }
+  
+  }
+  
+  
